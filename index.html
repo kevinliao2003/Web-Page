@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="para6"> <!-- how the page appears as opposed to content -->
+    <title>UMD HTML/CSS Summer Camp</title>
+    <meta charset="UTF-8"> <!-- Can be in uppercase -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="Summer.css" type="text/css">
+</head>
+
+ <!-- thick blue line -->
+<body>
+    <div>
+        <a href="www.cs.umd.edu"><img src="UMDGlobe.gif" alt="Globe"></a>
+        <img src="deptcs.png" alt="UMD CS">
+    
+        <p id="para2"><b><u>UMD HTML/CSS Summer Camp</u></b></p> <!-- underlines the bolded text -->
+    
+        <article id="para3">
+            <b>T</b>he UMD HTML/CSS Summer camp provides seminars to introduce adults to HTML and CSS. 
+            Located in the heart of the <b>City of College Park</b>, the camp is a two-week program starting June 1<sup>st</sup> 
+            and ending on June 22<sup>nd</sup>.
+        </article>
+    
+        <p class="font_and_paddling"><b><u>Schedule</u></b></p>
+        <p id="para8"><u><em>Weekly Schedule</em></u></p>
+    
+        <table class="margin_left">
+            <thead>
+                <tr id="para12"> <!-- boxes shaded in white -->
+                    <th>Week</th>
+                    <th>Monday</th>
+                    <th>Wednesday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+    
+            <!-- row with row span -->
+            <tbody> <!-- tbody instead of tr -->
+                <tr>
+                    <td rowspan="2">#1</td>
+                    <td>HTML Intros</td>
+                    <td>Images</td>
+                    <td><b>Editors</b></td>
+                </tr>
+                <tr>
+                    <td>HTML Tags</td>
+                    <td>Tables</td>
+                    <td><em>Validators</em></td> <!-- to italicize text -->
+                </tr>
+            </tbody>
+    
+            <!-- row with col span -->
+            <tbody>
+                <tr>
+                    <td rowspan="2">#2</td>
+                    <td>CSS Intro</td>
+                    <td colspan="2">
+                        <a href="https://www.umd.edu/virtual-tour" title="Virtual Tour">Campus Tour</a>
+                    </td>
+                </tr>
+                <tr> <!-- table with row span -->
+                    <td>Layout</td>
+                    <td>Menus</td>
+                    <td>Other</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <p class="font_and_paddling"><b><u>Resources</u></b></p>
+    
+        <p class="paddling_left">A. Online Learning</p>
+        <ul id="para7"> <!-- rounded bullet points -->
+            <li class="blue_text"><a href="http://www.html.dog.com/" title="HTML">
+                http://www.html.dog.com/</a></li>
+            <li class="blue_text"><a href="http://www.w3schools.com/" title="W3Schools">
+                http://www.w3schools.com/</a></li>
+        </ul>
+        
+        <p class="paddling_left">B. Validators</p> <!-- numbered bullet points -->
+        <ol id="para1">
+            <li class="blue_text">
+                <a href="http://www.validator.w3.org/#validate-by-upload/" title="Validator">
+                    http://www.validator.w3.org/#validate-by-upload/</a></li>
+            <li class="blue_text">
+                <a href=http://www.jigsaw.w3.org/css-validator/ title="Jigsaw">
+                    http://www.jigsaw.w3.org/css-validator/</a></li>
+        </ol>
+    
+        <p class="font_and_paddling"><b><u>Additional Information</u></b></p>
+        <p id="para10">
+            Information about your instructor can be found at <a href="https://html.com/" title="Instructor">Instructor.html</a>
+        </p>
+        <p class="paddling_left">
+            @Copyright UMD | UMD HTML/CSS Summer Camp | All Rights Reserved.
+        </p>
+        <p class="paddling_left">
+            Developed by: Kevin L. Liao
+        </p>
+
+        <hr id="para11"> <!-- horizontal line at the bottom -->
+    </div>
+</body>
+
+</html>

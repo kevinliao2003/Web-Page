@@ -1,0 +1,92 @@
+/* Do not remove this rule */
+
+html {
+    font-size: 14px;
+
+    border-color: red; /* double red lines */
+    border-width: 0.5em;
+    border-style: double;
+    background-color: antiquewhite;
+    margin: 0.5em /* shift from edges */
+}
+
+div { /* thick blue line  */
+    background-color:white;
+    border-color: blue;
+    border-style: solid;
+    border-width: 0.5rem;
+}
+
+.blue_text { /* use classes to avoid styling, since every id should be unique */
+    color: blue;
+}
+
+.font_and_paddling {
+    font-size: 3rem;
+    padding-left:2rem;
+}
+
+.paddling_left {
+    padding-left:2rem;
+}
+
+.margin_left { /* use margin for tables */
+    margin-left:2rem;
+}
+
+#para1 {
+    padding-left:5rem
+}
+
+#para2 {
+    font-size: 4rem;
+    padding-left:2rem;
+}
+
+#para3 {
+    padding-left:3rem;
+}
+
+#para7 {
+    color: blue;
+    list-style-type:circle;
+    padding-left:5rem; /* shift to right */
+}
+
+#para8 {
+    color:blue; 
+    padding-left:8rem;
+}
+
+#para10 {
+    color:brown;
+    padding-left:2rem;
+}
+
+#para11 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#para12 {
+    background-color:antiquewhite
+}
+
+article { /* no hashtag, since this is not an id */
+    color: brown;
+}
+
+table,
+th,
+td {
+    border: 0.125rem solid black;
+}
+
+article:hover {
+	color: red;
+}
+
+article::first-letter {
+    font-weight: bold;
+    font-size: 4rem;
+}

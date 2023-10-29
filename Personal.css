@@ -1,0 +1,39 @@
+html {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(umdcs.jpg);
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.font_size {
+    font-size: 4rem;
+}
+
+.circle_bullets {
+    color: blue;
+    list-style-type:circle;
+}
+
+.font_size2 {
+    font-size: 2rem;
+}
+
+.color_blue {
+    color: blue;
+}
+
+table,
+th,
+td {
+    border: 0.125rem solid black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
